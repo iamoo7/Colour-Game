@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Montserrat";
+  background-color: #232323;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.square {
+  border-radius: 5.6px;
+  float: left;
+  width: 30%;
+  background: mediumaquamarine;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  transition: background 0.6s;
+}
+
+h1 {
+  font-weight: normal;
+  padding: 30px 0;
+  line-height: 1.1;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+}
+#colourDisplay {
+  font-size: 200%;
+}
+
+.stripe {
+  background-color: white;
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 50px;
+  height: 35px;
+}
+
+#message {
+  color: black;
+
+  display: inline-block;
+  width: 16.6%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: inherit;
+}
+
+button {
+  height: 35px;
+  margin: 0;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: inherit;
+  color: #243b55;
+  letter-spacing: 1px;
+  padding: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  height: 35px;
+  margin: 0;
+  border: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #232323;
+  padding: 5px;
+}
+
+.selected {
+  margin: 0px;
+  background-color: black;
+  color: whitesmoke;
+  height: 35px;
+  letter-spacing: 1px;
+  margin: 0;
+  border: none;
+  padding: 5px;
+}
