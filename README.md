@@ -5,7 +5,7 @@ Created a game to better understand hex codes of colours.
 
 There are two levels in the game. 
 
-####Ease and Hard.
+###Ease and Hard.
 
 1. In easy mode, you have three colours on your screen and a hex code in the top. You need to guess the right colour among the three.
 2. In hard mode, you have six colours on your screen and a hex code in the top. You need to guess the right colour among the six.
